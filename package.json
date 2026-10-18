@@ -1,0 +1,13 @@
+{
+  "name": "biolens-mobile-deploy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check worker.js",
+    "deploy": "npx wrangler@4 deploy"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
